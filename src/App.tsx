@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Example1 from "./Examples/example1";
+// import Example2 from "./Examples/example2";
+// import Example3 from "./Examples/example3";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component<any, any> {
+    render() {
+        return (
+            <>
+            <Example1 />
+            {/*<Example2 />*/}
+                {/*<Example3 />*/}
+            </>
+        )
+    }
 }
 
 export default App;

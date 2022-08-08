@@ -1,0 +1,13 @@
+.withBorder {
+    display: block;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.img {
+    height: 50px;
+}
+
+.img img {
+    height: 100%;
+}
